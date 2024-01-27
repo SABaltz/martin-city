@@ -5,6 +5,7 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import Typography from "@mui/material/Typography";
 import {Mail} from "@mui/icons-material";
 import {centerVertHoriz} from "../../global-parameters/Styles";
+import {isMobile} from "react-device-detect";
 
 function PreNav() {
     const recipientEmail = 'glaciernationalparkcamping@gmail.com';
@@ -16,12 +17,12 @@ function PreNav() {
     };
     return (
         <Box sx={{flexGrow: 1,}}>
-            <AppBar position="static" sx={{height: '1.7rem'}}>
+            <AppBar position="static" sx={{height: isMobile? '3.5rem' :'1.7rem'}}>
                 <Grid container>
-                    <Grid item xs={4}><Typography sx={{...centerVertHoriz}}><LocalPhoneIcon sx={{paddingRight: '.5rem'}}
+                    <Grid item xs={12} md={2}><Typography sx={{...centerVertHoriz}}><LocalPhoneIcon sx={{paddingRight: '.5rem'}}
                                                                                             onClick={() => window.open('tel:+14062532867')}/>(406)
                         253-2867</Typography></Grid>
-                    <Grid item xs={4}><Typography sx={{...centerVertHoriz}}><Mail sx={{paddingRight: '.5rem'}}
+                    <Grid item xs={12} md={2}><Typography sx={{...centerVertHoriz}}><Mail sx={{paddingRight: '.5rem'}}
                                                                                   onClick={handleEmailClick}/>glaciernationalparkcamping@gmail.com</Typography></Grid>
                 </Grid>
             </AppBar>
@@ -30,3 +31,29 @@ function PreNav() {
 }
 
 export default PreNav
+
+
+// const MyComponent = () => {
+//     return (
+//         <>
+//             <BrowserView>
+//                 <h1>This is rendered only in browser</h1>
+//             </BrowserView>
+//             <MobileView>
+//                 <h1>This is rendered only on mobile</h1>
+//             </MobileView>
+//         </>
+//     );
+// };
+//
+//
+// const MyComponent = () => {
+//     if(isMobile) {
+//         return (
+//             <div> This content is available only on mobile</div>
+//         )
+//     }
+//     return (
+//         <div> content... </div>
+//     );
+// };
