@@ -1,3 +1,3 @@
-let name = 'Martin City Park'
+let name = 'Martin City Campground'
 
 export {name}
