@@ -7,6 +7,7 @@ import {Mail} from "@mui/icons-material";
 import {centerVertHoriz} from "../../global-parameters/Styles";
 import {isMobile} from "react-device-detect";
 import DirectionsIcon from '@mui/icons-material/Directions';
+import {secondaryColor} from "../../global-parameters/Parameters";
 function PreNav() {
     const recipientEmail = 'glaciernationalparkcamping@gmail.com';
     const subject = '';
@@ -17,7 +18,7 @@ function PreNav() {
     };
     return (
         <Box sx={{flexGrow: 1,}}>
-            <AppBar position="static" sx={{height: isMobile? '5rem' :'1.7rem'}}>
+            <AppBar position="static" sx={{height: isMobile? '5rem' :'1.7rem', backgroundColor : secondaryColor}}>
                 <Grid container>
                     <Grid item xs={12} md={2}><Typography sx={{...centerVertHoriz}}><LocalPhoneIcon sx={{paddingRight: '.5rem'}}
                                                                                             onClick={() => window.open('tel:+14062532867')}/>(406)

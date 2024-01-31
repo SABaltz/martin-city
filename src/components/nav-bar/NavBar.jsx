@@ -5,7 +5,7 @@ import {BrowserView, MobileView} from "react-device-detect";
 import {Button, Grid, Link, Menu, MenuItem} from "@mui/material";
 import Typography from "@mui/material/Typography";
 import React, {useState} from "react";
-import {name} from "../../global-parameters/Parameters";
+import {mainColor, name} from "../../global-parameters/Parameters";
 function NavBar() {
 
     let parameters =  ['home', 'work', 'about', 'contact']
@@ -25,7 +25,7 @@ function NavBar() {
         <Box sx={{flexGrow: 1}}>
             <AppBar position="static">
                 <BrowserView>
-                    <Toolbar>
+                    <Toolbar sx={{backgroundColor: mainColor}}>
                         <Grid container>
                             <Grid item xs={7}>
                                 <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
