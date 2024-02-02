@@ -28,41 +28,44 @@ function NavBar() {
                     <Toolbar sx={{backgroundColor: mainColor}}>
                         <Grid container>
                             <Grid item xs={7}>
+                                <Link href={'home'} sx={{textDecoration: 'none'}}>
                                 <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
                                     {name}
                                 </Typography>
+                                </Link>
                             </Grid>
                             <Grid item xs={1}>
+                                <Link href={'home'} sx={{textDecoration: 'none'}}>
                                 <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
                                     Home
                                 </Typography>
+                                </Link>
                             </Grid>
                             <Grid item xs={1}>
+                                <Link href={'book'} sx={{textDecoration: 'none'}}>
                                 <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
                                     Book
                                 </Typography>
+                                </Link>
                             </Grid>
                             <Grid item xs={1}>
+                                <Link href={'rates'} sx={{textDecoration: 'none'}}>
                                 <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
                                     Rates
                                 </Typography>
-                            </Grid>
-                            <Grid item xs={1}>
-                                <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
-                                    Gallery
-                                </Typography>
+                                </Link>
                             </Grid>
                         </Grid>
                     </Toolbar>
                 </BrowserView>
                 <MobileView>
                     <Grid container>
-                        <Grid item xs={11}>
+                        <Grid item xs={9}>
                             <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
                                 {name}
                             </Typography>
                         </Grid>
-                        <Grid item xs={1}>
+                        <Grid item xs={3}>
                             <Button
                                 id="demo-positioned-button"
                                 aria-controls={anchorEl ? 'demo-positioned-menu' : undefined}

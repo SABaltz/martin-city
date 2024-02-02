@@ -1,5 +1,5 @@
 function Rates(){
-    return(<div></div>)
+    return(<div>rates</div>)
 
 }
 
