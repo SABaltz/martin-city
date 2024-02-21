@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import {centerVertHoriz} from "../../global-parameters/Styles";
 
 function NavBar() {
-    const parameters = ['home', 'work', 'about', 'contact'];
+    const parameters = ['home', 'book', 'rates'];
     const [anchorEl, setAnchorEl] = useState(null);
 
     const handleClick = (event) => {
@@ -31,7 +31,7 @@ function NavBar() {
                     <Toolbar>
                         <Grid container>
                             <Grid item xs={7}>
-                                <Link href="home" sx={{textDecoration: 'none'}}>
+                                <Link href={"home"} sx={{textDecoration: 'none'}}>
                                     <Typography variant="h6" component="div"
                                                 sx={{flexGrow: 1, color: 'white', ...centerVertHoriz}}>
                                         {name}
@@ -103,7 +103,6 @@ function NavBar() {
                             </Menu>
                         </Grid>
                     </Grid>
-
                 </MobileView>
             </AppBar>
         </Box>

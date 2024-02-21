@@ -1,7 +1,7 @@
 let centerVertHoriz = {
     display: 'flex',
     justifyContent: 'center',
-    alignContent: 'center',
+    // alignContent: 'center',
     alignItems: 'center',
 }
 

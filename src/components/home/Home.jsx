@@ -1,8 +1,10 @@
 import background from "../../photos/hungry-horse-99.jpg";
 import Box from "@mui/material/Box";
+import {Button, Stack, Typography} from "@mui/material";
+import {centerVertHoriz} from "../../global-parameters/Styles";
 
-function Home(){
-    return(
+function Home() {
+    return (
         <Box
             sx={{
                 backgroundImage: `url(${background})`,
@@ -10,11 +12,16 @@ function Home(){
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 width: '100vw',
-                height: '90vh',
+                height: '60vh',
                 position: 'relative',
+                ...centerVertHoriz
             }}
         >
-
+            <Stack sx={{...centerVertHoriz}}>
+                <Typography variant={'h3'} sx={{color: 'white'}}>Martin City Campground in Martin City
+                    Montana</Typography>
+                <Button variant={'contained'} sx={{marginTop: '1rem', width: '15rem'}}>Make a Reservation</Button>
+            </Stack>
         </Box>
     )
 }
