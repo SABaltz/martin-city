@@ -2,13 +2,14 @@ import {centerVertHoriz} from "../../global-parameters/Styles";
 import {Typography} from "@mui/material";
 import Box from "@mui/material/Box";
 
-function Description(){
-    return(<Box sx={{
+function Description() {
+    return (<Box sx={{
         width: '100vw',
         height: '30vh',
         ...centerVertHoriz
     }}>
-        <Typography sx={{margin: '4rem 4rem'}}>Oceanside RV Park is located in Haines, Alaska right on the shores of the Lynn Canal, North
+        <Typography sx={{margin: '4rem 4rem'}}>Oceanside RV Park is located in Haines, Alaska right on the shores of the
+            Lynn Canal, North
             America’s longest fjord. Breathtaking ocean and mountain views surround the park, which is
             conveniently
             located adjacent to Main Street, the Haines Harbor, and the downtown business district.

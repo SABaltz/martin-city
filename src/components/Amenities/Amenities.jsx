@@ -1,11 +1,12 @@
-import {Grid, ImageList, ImageListItem, ImageListItemBar, Link, ListSubheader, Stack, Typography} from "@mui/material";
+import {ImageList, ImageListItem, ImageListItemBar, Stack, Typography} from "@mui/material";
 import background from "../../photos/hungry-horse-99.jpg";
 import {centerVertHoriz} from "../../global-parameters/Styles";
+
 function Amenities() {
     return (
         <Stack sx={{margin: '4rem 4rem', ...centerVertHoriz}}>
             <Typography sx={{color: 'black'}}>Amenities</Typography>
-            <ImageList sx={{ width: '90vw', height: 450 }} cols={3} rowHeight={164}>
+            <ImageList sx={{width: '90vw', height: 450}} cols={3} rowHeight={164}>
                 {itemData.map((item) => (
                     <ImageListItem key={item.img}>
                         <img

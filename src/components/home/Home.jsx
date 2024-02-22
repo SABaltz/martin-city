@@ -19,7 +19,7 @@ function Home() {
                 }}
             >
                 <Stack sx={{...centerVertHoriz, margin: '4rem 4rem', textAlign: 'center'}}>
-                    <Typography  variant={'h3'} sx={{color: 'white'}}>Martin City Campground in Martin City
+                    <Typography variant={'h3'} sx={{color: 'white'}}>Martin City Campground in Martin City
                         Montana</Typography>
                     <Button variant={'contained'} sx={{marginTop: '1rem', width: '15rem'}}>Make a Reservation</Button>
                 </Stack>

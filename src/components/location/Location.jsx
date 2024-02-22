@@ -1,6 +1,5 @@
 import background from "../../photos/hungry-horse-99.jpg";
-import {centerVertHoriz} from "../../global-parameters/Styles";
-import {Button, Stack, Typography} from "@mui/material";
+import {Stack, Typography} from "@mui/material";
 import Box from "@mui/material/Box";
 
 function Location() {
@@ -16,7 +15,7 @@ function Location() {
                 position: 'relative',
             }}
         >
-            <Stack sx={{ margin: '4rem 4rem'}}>
+            <Stack sx={{margin: '4rem 4rem'}}>
                 <Typography variant={'h3'} sx={{color: 'white'}}>Location</Typography>
             </Stack>
         </Box>
