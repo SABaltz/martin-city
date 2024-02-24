@@ -5,7 +5,6 @@ import Box from "@mui/material/Box";
 function Description() {
     return (<Box sx={{
         width: '100vw',
-        height: '30vh',
         ...centerVertHoriz
     }}>
         <Typography sx={{margin: '4rem 4rem'}}>Oceanside RV Park is located in Haines, Alaska right on the shores of the
