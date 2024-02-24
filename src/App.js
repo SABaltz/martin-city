@@ -14,7 +14,7 @@ function App() {
             <Description/>
             <Reservations/>
             <Amenities/>
-            <Location/>
+            {/*<Location/>*/}
             <Footer/>
         </>
     )

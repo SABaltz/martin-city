@@ -16,7 +16,7 @@ function Location() {
             }}
         >
             <Stack sx={{margin: '4rem 4rem'}}>
-                <Typography variant={'h3'} sx={{color: 'white'}}>Location</Typography>
+                <Typography variant={'h3'} sx={{color: 'white'}}>Location / Contact</Typography>
             </Stack>
         </Box>
     )
