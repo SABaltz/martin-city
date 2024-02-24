@@ -6,7 +6,6 @@ function Footer() {
     return (<Box
         sx={{
             width: '100vw',
-            height: '5vh',
             ...centerVertHoriz,
             backgroundColor: 'grey'
         }}
