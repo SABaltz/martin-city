@@ -11,7 +11,7 @@ function Footer() {
         }}
     >
         <Stack sx={{margin: '4rem 4rem'}}>
-            <Typography sx={{}}>Oceanside RV Park | PO Box 1028 | Haines AK 99827 | 907-766-3730</Typography>
+            <Typography sx={{}}>Martin City Campground | Martin City MT, 59926 | (406) 253-2867</Typography>
         </Stack>
     </Box>)
 }

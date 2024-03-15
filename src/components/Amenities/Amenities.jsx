@@ -5,7 +5,7 @@ import {centerVertHoriz} from "../../global-parameters/Styles";
 function Amenities() {
     return (
         <Stack sx={{margin: '4rem 4rem', ...centerVertHoriz}}>
-            <Typography sx={{color: 'black'}}>Amenities</Typography>
+            <Typography sx={{color: 'black'}} variant={'h4'}>Amenities</Typography>
             <ImageList sx={{width: '90vw'}} cols={3} rowHeight={164}>
                 {itemData.map((item) => (
                     <ImageListItem key={item.img}>

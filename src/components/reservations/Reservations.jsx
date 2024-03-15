@@ -16,7 +16,7 @@ function Reservations() {
         }}
     >
         <Stack sx={{margin: '4rem 4rem'}}>
-            <Typography sx={{color: 'white'}}>Reservations</Typography>
+            <Typography sx={{color: 'white'}} variant={'h4'}>Reservations</Typography>
             <Typography sx={{color: 'white'}}>
                 Please visit our <Link>online reservation system</Link> where you can view our current availability,
                 site types, pricing & terms. You can also confirm your reservation and pay for your site through the

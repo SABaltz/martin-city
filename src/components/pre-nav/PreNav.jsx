@@ -5,7 +5,6 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import Typography from "@mui/material/Typography";
 import {Mail} from "@mui/icons-material";
 import {centerVertHoriz} from "../../global-parameters/Styles";
-import {isMobile} from "react-device-detect";
 import DirectionsIcon from '@mui/icons-material/Directions';
 import {secondaryColor} from "../../global-parameters/Parameters";
 
