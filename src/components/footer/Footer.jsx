@@ -1,5 +1,5 @@
 import {centerVertHoriz} from "../../global-parameters/Styles";
-import {Link, Stack, Typography} from "@mui/material";
+import {Stack, Typography} from "@mui/material";
 import Box from "@mui/material/Box";
 
 function Footer() {

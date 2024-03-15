@@ -1,5 +1,5 @@
 import Box from "@mui/material/Box";
-import background from "../../photos/hungry-horse-99.jpg";
+import background from "../../photos/tent-site.jpg";
 import {centerVertHoriz} from "../../global-parameters/Styles";
 import {Link, Stack, Typography} from "@mui/material";
 
