@@ -21,7 +21,7 @@ function PreNav() {
         <Box sx={{flexGrow: 1}}>
             <AppBar position="static" sx={{ backgroundColor: secondaryColor}}>
                 <Grid container>
-                    <Grid item xs={12} sm={4} md={4}><Typography sx={{...centerVertHoriz}}><LocalPhoneIcon
+                    <Grid item xs={12} sm={4} md={2}><Typography sx={{...centerVertHoriz}}><LocalPhoneIcon
                         sx={{paddingRight: '.5rem'}}
                         onClick={() => window.open('tel:+14062532867')}/>(406)
                         253-2867</Typography></Grid>
@@ -37,29 +37,3 @@ function PreNav() {
 }
 
 export default PreNav
-
-
-// const MyComponent = () => {
-//     return (
-//         <>
-//             <BrowserView>
-//                 <h1>This is rendered only in browser</h1>
-//             </BrowserView>
-//             <MobileView>
-//                 <h1>This is rendered only on mobile</h1>
-//             </MobileView>
-//         </>
-//     );
-// };
-//
-//
-// const MyComponent = () => {
-//     if(isMobile) {
-//         return (
-//             <div> This content is available only on mobile</div>
-//         )
-//     }
-//     return (
-//         <div> content... </div>
-//     );
-// };
