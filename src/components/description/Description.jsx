@@ -11,8 +11,7 @@ function Description() {
             for travelers and backpack cyclers visiting Glacier National Park, and the Hungry Horse Reservoir areas.
             Martin City Park is located right off Highway 2 and the entrance into Martin City. The small-acre site
             boasts the cheapest options for overnight site stays in the area. Included on-site are regularly cleaned
-            portapotties, ground bike racks, and a garbage/recycling bin. Reservations can be made following the
-            link. </Typography>
+            portapotties, ground bike racks, and a garbage/recycling bin. </Typography>
     </Box>)
 }
 
