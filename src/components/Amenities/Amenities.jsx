@@ -1,5 +1,8 @@
 import {ImageList, ImageListItem, ImageListItemBar, Stack, Typography} from "@mui/material";
 import background from "../../photos/hungry-horse-99.jpg";
+import bikeRack from "../../photos/bike-rack.jpg";
+import trashCan from "../../photos/trash-can.jpg";
+import firePit from "../../photos/fire-pit.jpg";
 import {centerVertHoriz} from "../../global-parameters/Styles";
 
 function Amenities() {
@@ -28,18 +31,18 @@ function Amenities() {
 
 const itemData = [
     {
-        img: background,
-        title: 'Breakfast',
+        img: bikeRack,
+        title: 'Locking Bike Racks',
         featured: true,
     },
     {
-        img: background,
-        title: 'Breakfast',
+        img: trashCan,
+        title: 'Trash Service',
         featured: true,
     },
     {
-        img: background,
-        title: 'Breakfast',
+        img: firePit,
+        title: 'Fire Pits',
         featured: true,
     }]
 export default Amenities
