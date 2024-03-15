@@ -1,5 +1,4 @@
 import {ImageList, ImageListItem, ImageListItemBar, Stack, Typography} from "@mui/material";
-import background from "../../photos/hungry-horse-99.jpg";
 import bikeRack from "../../photos/bike-rack.jpg";
 import trashCan from "../../photos/trash-can.jpg";
 import firePit from "../../photos/fire-pit.jpg";

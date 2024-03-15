@@ -2,8 +2,7 @@ import PreNav from "./components/pre-nav/PreNav";
 import Home from "./components/home/Home";
 import Description from "./components/description/Description";
 import Reservations from "./components/reservations/Reservations";
-import Amenities from "./components/Amenities/Amenities";
-import Location from "./components/location/Location";
+import Amenities from "./components/amenities/Amenities";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
             <Description/>
             <Reservations/>
             <Amenities/>
-            {/*<Location/>*/}
             <Footer/>
         </>
     )
