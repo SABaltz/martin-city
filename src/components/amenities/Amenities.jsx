@@ -8,7 +8,7 @@ function Amenities() {
     return (
         <Stack sx={{margin: '4rem 4rem', ...centerVertHoriz}}>
             <Typography sx={{color: 'black'}} variant={'h4'}>Amenities</Typography>
-            <ImageList sx={{width: '90vw',  height: 300}} cols={3} rowHeight={200}>
+            <ImageList sx={{width: '90vw',  height: 500}} cols={3} rowHeight={200}>
                 {itemData.map((item) => (
                     <ImageListItem key={item.img}>
                         <img
