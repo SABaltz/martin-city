@@ -7,7 +7,7 @@ function Description() {
         width: '100vw',
         ...centerVertHoriz
     }}>
-        <Typography sx={{margin: '4rem 4rem'}}>Martin City Park is a convenient, budget-friendly campervan and tent site
+        <Typography sx={{margin: '4rem 4rem'}}>Martin City Park is a convenient, budget-friendly camper van and tent site
             for travelers and backpack cyclers visiting Glacier National Park, and the Hungry Horse Reservoir areas.
             Martin City Park is located right off Highway 2 and the entrance into Martin City. The small-acre site
             boasts the cheapest options for overnight site stays in the area. Included on-site are regularly cleaned

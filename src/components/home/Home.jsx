@@ -22,13 +22,11 @@ function Home() {
                     <Typography variant={'h3'} sx={{color: 'white', paddingBottom: '4rem'}}>Martin City Campground in
                         Martin City
                         Montana</Typography>
-                    <Button variant={'contained'} sx={{width: '20rem', height: '5rem'}}><Typography variant={'h5'} sx={{
-                        color: 'white',
-                    }}>Make A Reservation</Typography></Button>
+                    {/*<Button variant={'contained'} sx={{width: '20rem', height: '5rem'}}><Typography variant={'h5'} sx={{*/}
+                    {/*    color: 'white',*/}
+                    {/*}}>Make A Reservation</Typography></Button>*/}
                 </Stack>
             </Box>
-
-
         </>
     )
 }
