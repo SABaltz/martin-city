@@ -13,7 +13,7 @@ function Reservations() {
             backgroundPosition: '50% 60%',
             backgroundSize: 'cover',
             width: '100vw',
-            height: '50vh',
+            height: '70vh',
             position: 'relative',
             ...centerVertHoriz
         }}
