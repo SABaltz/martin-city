@@ -3,6 +3,7 @@ import background from "../../photos/tent-site.jpg";
 import {centerVertHoriz} from "../../global-parameters/Styles";
 import {Button, Link, Stack, Typography} from "@mui/material";
 import {secondaryColor} from "../../global-parameters/Parameters";
+import {isMobile} from 'react-device-detect';
 
 function Reservations() {
     return (<Box
@@ -12,8 +13,7 @@ function Reservations() {
             // backgroundPosition: 'center',
             backgroundPosition: '50% 60%',
             backgroundSize: 'cover',
-            width: '100vw',
-            height: '70vh',
+            height: isMobile ? '100vh' : '70vh',
             position: 'relative',
             ...centerVertHoriz
         }}
@@ -31,11 +31,10 @@ function Reservations() {
                 <Typography sx={{color: 'white', ...centerVertHoriz, paddingBottom: '1rem'}}
                             variant={'h3'}>Reservations</Typography>
                 <Typography sx={{color: 'white', fontSize: '1.5rem'}}>
-                    Please visit our <Link sx={{color: 'lightBlue', cursor: 'pointer'}}>online reservation system</Link> where you can view
-                    our
-                    current availability,
-                    site types, pricing & terms. You can also confirm your reservation and pay for your site through the
-                    link above.</Typography>
+                    Please visit our <Link sx={{color: 'lightBlue', cursor: 'pointer'}}>online reservation
+                    system</Link>
+                    {isMobile ? " where you can make a reservation" : " where you can view our current availability, site types, pricing & terms. You can also confirm your reservation and pay for your site through the link above."}
+                </Typography>
                 <Button variant={'contained'} sx={{
                     width: '20rem',
                     height: '5rem',
