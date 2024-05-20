@@ -8,12 +8,12 @@ import Footer from "./components/footer/Footer";
 function App() {
     return (
         <>
-            {/*<PreNav/>*/}
-            {/*<Home/>*/}
-            {/*<Description/>*/}
-            {/*/!*<Reservations/>*!/*/}
-            {/*<Amenities/>*/}
-            {/*<Footer/>*/}
+            <PreNav/>
+            <Home/>
+            <Description/>
+            {/*<Reservations/>*/}
+            <Amenities/>
+            <Footer/>
         </>
     )
 }
