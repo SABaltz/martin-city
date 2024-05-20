@@ -10,10 +10,10 @@ function Home() {
                 sx={{
                     backgroundImage: `url(${background})`,
                     backgroundRepeat: 'no-repeat',
-                    backgroundPosition: 'center',
+                    backgroundPosition: '50% 40%',
                     backgroundSize: 'cover',
                     width: '100vw',
-                    height: '60vh',
+                    height: '80vh',
                     position: 'relative',
                     ...centerVertHoriz
                 }}
