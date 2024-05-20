@@ -11,7 +11,7 @@ function Footer() {
         }}
     >
         <Stack sx={{margin: '4rem 4rem'}}>
-            <Typography sx={{}}>Martin City Campground | Martin City MT, 59926 | (406) 253-2867</Typography>
+            <Typography sx={{fontSize: '1.5rem'}}>Martin City Campground | Martin City MT, 59926 | (406) 253-2867</Typography>
         </Stack>
     </Box>)
 }
