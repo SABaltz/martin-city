@@ -1,4 +1,4 @@
-import background from "../../photos/hungry-horse-99.jpg";
+import background from "../../photos/unnamed.jpg";
 import Box from "@mui/material/Box";
 import { Stack, Typography} from "@mui/material";
 import {centerVertHoriz} from "../../global-parameters/Styles";
