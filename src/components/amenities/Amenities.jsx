@@ -8,7 +8,7 @@ import Box from "@mui/material/Box";
 function Amenities() {
     return (
         <Stack sx={{textAlign: 'center', ...centerVertHoriz, marginTop: '3rem', marginBottom: '3rem'}}>
-            <Typography sx={{color: 'black'}} variant={'h4'}>Amenities</Typography>
+            <Typography sx={{color: 'black'}} variant={'h3'}>Amenities</Typography>
             <ImageList sx={{width: '90vw'}} cols={3} rowHeight={200}>
                 {itemData.map((item) => (
                     <Box
