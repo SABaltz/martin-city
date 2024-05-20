@@ -22,7 +22,7 @@ function Reservations() {
         <Box sx={{
             backgroundColor: 'rgba(255, 255, 255, 0.13)',
             borderRadius: '10px',
-            backdropFilter: 'blur(10px)',
+            backdropFilter: 'blur(3px)',
             border: '2px solid rgba(255, 255, 255, 0.1)',
             boxShadow: '0 0 40px rgba(8, 7, 16, 0.6)',
         }}>
@@ -31,7 +31,7 @@ function Reservations() {
                 <Typography sx={{color: 'white', ...centerVertHoriz, paddingBottom: '1rem'}}
                             variant={'h3'}>Reservations</Typography>
                 <Typography sx={{color: 'white', fontSize: '1.5rem'}}>
-                    Please visit our <Link sx={{color: 'lightBlue'}}>online reservation system</Link> where you can view
+                    Please visit our <Link sx={{color: 'lightBlue', cursor: 'pointer'}}>online reservation system</Link> where you can view
                     our
                     current availability,
                     site types, pricing & terms. You can also confirm your reservation and pay for your site through the
