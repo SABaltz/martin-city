@@ -1,13 +1,14 @@
 import {centerVertHoriz} from "../../global-parameters/Styles";
 import {Stack, Typography} from "@mui/material";
 import Box from "@mui/material/Box";
+import {secondaryColor} from "../../global-parameters/Parameters";
 
 function Footer() {
     return (<Box
         sx={{
             width: '100vw',
             ...centerVertHoriz,
-            backgroundColor: 'grey'
+            backgroundColor: secondaryColor,
         }}
     >
         <Stack sx={{margin: '4rem 4rem'}}>
