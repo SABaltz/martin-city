@@ -21,11 +21,18 @@ function Home() {
             >
                 <Stack sx={{...centerVertHoriz, margin: '4rem 4rem', textAlign: 'center'}}>
                     <Typography variant={'h3'} sx={{color: 'white', paddingBottom: '4rem'}}>Martin City Campground in
-                        Martin City
-                        Montana</Typography>
-                    <Button variant={'contained'} sx={{width: '20rem', height: '5rem', backgroundColor: secondaryColor}}><Typography variant={'h5'} sx={{
-                        color: 'white',
-                    }}>Make A Reservation</Typography></Button>
+                        Martin City Montana
+                    </Typography>
+                    <Button variant={'contained'}
+                            onClick={() => {
+                                window.open("https://www.campspot.com/book/martin-city-park")
+                            }}
+                            sx={{width: '20rem', height: '5rem', backgroundColor: secondaryColor}}>
+                        <Typography variant={'h5'} sx={{
+                            color: 'white',
+                        }}>Make A Reservation
+                        </Typography>
+                    </Button>
                 </Stack>
             </Box>
         </>
