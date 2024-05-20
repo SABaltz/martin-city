@@ -1,7 +1,8 @@
 import background from "../../photos/unnamed.jpg";
 import Box from "@mui/material/Box";
-import { Stack, Typography} from "@mui/material";
+import {Button, Stack, Typography} from "@mui/material";
 import {centerVertHoriz} from "../../global-parameters/Styles";
+import {secondaryColor} from "../../global-parameters/Parameters";
 
 function Home() {
     return (
@@ -22,9 +23,9 @@ function Home() {
                     <Typography variant={'h3'} sx={{color: 'white', paddingBottom: '4rem'}}>Martin City Campground in
                         Martin City
                         Montana</Typography>
-                    {/*<Button variant={'contained'} sx={{width: '20rem', height: '5rem'}}><Typography variant={'h5'} sx={{*/}
-                    {/*    color: 'white',*/}
-                    {/*}}>Make A Reservation</Typography></Button>*/}
+                    <Button variant={'contained'} sx={{width: '20rem', height: '5rem', backgroundColor: secondaryColor}}><Typography variant={'h5'} sx={{
+                        color: 'white',
+                    }}>Make A Reservation</Typography></Button>
                 </Stack>
             </Box>
         </>
