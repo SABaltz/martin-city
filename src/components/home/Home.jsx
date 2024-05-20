@@ -1,6 +1,6 @@
 import background from "../../photos/hungry-horse-99.jpg";
 import Box from "@mui/material/Box";
-import {Button, Stack, Typography} from "@mui/material";
+import { Stack, Typography} from "@mui/material";
 import {centerVertHoriz} from "../../global-parameters/Styles";
 
 function Home() {
