@@ -13,7 +13,7 @@ function Description() {
             for travelers visiting Glacier National Park.
             Martin City Park is located right off Highway 2 and the entrance into Martin City. The small-acre site
             boasts the cheapest options for overnight site stays in the area. Included on-site are regularly cleaned
-            portapotties, ground bike racks, and a bear-proof trash can. </Typography>
+            portapotties, secluded camping spots, and a bear-proof trash can. </Typography>
     </Box>)
 }
 
