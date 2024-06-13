@@ -24,13 +24,11 @@ function Home() {
                         Martin City Montana
                     </Typography>
                     <Button variant={'contained'}
-                            onClick={() => {
-                                window.open("https://www.campspot.com/book/martin-city-park")
-                            }}
+                            onClick={() => window.open('tel:+14062532867')}
                             sx={{width: '20rem', height: '5rem', backgroundColor: secondaryColor}}>
                         <Typography variant={'h5'} sx={{
                             color: 'white',
-                        }}>Make A Reservation
+                        }}>Call to Make A Reservation
                         </Typography>
                     </Button>
                 </Stack>
