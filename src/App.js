@@ -13,7 +13,7 @@ function App() {
             <BrowserRouter>
                 <PreNav/>
                 <Routes>
-                    <Route path="/about" element={<Terms />} />
+                    <Route path="/terms" element={<Terms />} />
                     <Route path="/" element={
                         <>
                             <Description/>
