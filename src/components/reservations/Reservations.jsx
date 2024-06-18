@@ -38,13 +38,13 @@ function Reservations() {
                 <Button variant={'contained'}
                         onClick={() => window.open('tel:+14062532867')}
                         sx={{
-                    width: '20rem',
-                    height: '5rem',
-                    backgroundColor: secondaryColor,
-                    paddingTop: '1rem',
-                }}><Typography variant={'h5'} sx={{
+                            width: '20rem',
+                            height: '5rem',
+                            backgroundColor: secondaryColor,
+                            paddingTop: '1rem',
+                        }}><Typography variant={'h5'} sx={{
                     color: 'white',
-                }} >Call to Make A Reservation</Typography></Button>
+                }}>Make a Reservation</Typography></Button>
             </Stack>
         </Box>
     </Box>)

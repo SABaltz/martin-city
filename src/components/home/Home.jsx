@@ -28,7 +28,7 @@ function Home() {
                             sx={{width: '20rem', height: '5rem', backgroundColor: secondaryColor}}>
                         <Typography variant={'h5'} sx={{
                             color: 'white',
-                        }}>Call to Make A Reservation
+                        }}>Make a Reservation
                         </Typography>
                     </Button>
                 </Stack>

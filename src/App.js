@@ -28,7 +28,7 @@ function App() {
             <BrowserRouter>
                 <PreNav/>
                 <Routes>
-                    <Route path="/terms" element={<Terms />} />
+                    <Route path="/terms" element={<Terms/>}/>
                     <Route path="/" element={
                         <>
                             <Description/>
@@ -37,12 +37,12 @@ function App() {
                             <Rules/>
                             <Attractions/>
                         </>
-                    } />
-                    <Route path="*" element={<Navigate to="/" />} />
+                    }/>
+                    <Route path="*" element={<Navigate to="/"/>}/>
                 </Routes>
                 <Footer/>
             </BrowserRouter>
-            <TermsPopup open={openTerms} handleClose={handleCloseTerms} />
+            <TermsPopup open={openTerms} handleClose={handleCloseTerms}/>
         </>
     );
 }
