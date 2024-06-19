@@ -1,4 +1,4 @@
-import background from "../../photos/unnamed.jpg";
+import background from "../../photos/MArtinCityPark.jpg";
 import Box from "@mui/material/Box";
 import {Button, Stack, Typography} from "@mui/material";
 import {centerVertHoriz} from "../../global-parameters/Styles";
@@ -11,7 +11,7 @@ function Home() {
                 sx={{
                     backgroundImage: `url(${background})`,
                     backgroundRepeat: 'no-repeat',
-                    backgroundPosition: '50% 40%',
+                    backgroundPosition: '50% 60%',
                     backgroundSize: 'cover',
                     width: '100vw',
                     height: '80vh',
