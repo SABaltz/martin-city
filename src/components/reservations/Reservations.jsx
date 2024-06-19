@@ -36,7 +36,7 @@ function Reservations() {
                     {isMobile ? " where you can make a reservation" : " where you can view our current availability, site types, pricing & terms. You can also confirm your reservation and pay for your site through the link above."}
                 </Typography>
                 <Button variant={'contained'}
-                        onClick={() => window.open('tel:+14062532867')}
+                        onClick={() => window.open('https://www.campspot.com/book/martin-city-park-cfmt')}
                         sx={{
                             width: '20rem',
                             height: '5rem',

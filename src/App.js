@@ -8,6 +8,7 @@ import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom";
 import Terms from "./components/terms/Terms";
 import {useEffect, useState} from "react";
 import TermsPopup from "./components/cookies/TermsPopup";
+import Home from "./components/home/Home";
 
 function App() {
     const [openTerms, setOpenTerms] = useState(false);
@@ -31,6 +32,7 @@ function App() {
                     <Route path="/terms" element={<Terms/>}/>
                     <Route path="/" element={
                         <>
+                            <Home/>
                             <Description/>
                             <Reservations/>
                             {/*<Amenities/>*/}
