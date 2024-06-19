@@ -4,6 +4,7 @@ import Container from "@mui/material/Typography";
 import {Button, Divider} from "@mui/material";
 import Box from "@mui/material/Box";
 import {centerVertHoriz} from "../../global-parameters/Styles";
+import {secondaryColor} from "../../global-parameters/Parameters";
 
 
 function Terms() {
@@ -192,9 +193,9 @@ function Terms() {
                     Martin City Park without a refund.
                 </Typography>
             </Box>
-            <Box>
+            <Box sx={{...centerVertHoriz, justifyContent: 'center'}}>
                 <Button variant="contained" href="/"
-                        sx={{color: 'white', backgroundColor: 'blue', ...centerVertHoriz, width: '3rem'}}>
+                        sx={{color: 'white', backgroundColor: secondaryColor, ...centerVertHoriz, width: '20rem', marginBottom: '2rem'}}>
                     Home
                 </Button>
             </Box>

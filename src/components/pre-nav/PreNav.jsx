@@ -24,7 +24,7 @@ function PreNav() {
 
     return (
         <Box sx={{flexGrow: 1}}>
-            <AppBar position="static" sx={{backgroundColor: secondaryColor, height: '5rem'}}>
+            <AppBar position="static" sx={{backgroundColor: secondaryColor, height: '3rem'}}>
                 <Grid container alignItems="center" justifyContent="center">
                     <Grid item xs={12} sm={4} md={2}>
                         <Typography onClick={handlePhoneClick} sx={{...centerVertHoriz, cursor: 'pointer'}}>
