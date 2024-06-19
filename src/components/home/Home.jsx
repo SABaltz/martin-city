@@ -24,7 +24,7 @@ function Home() {
                         Martin City Montana
                     </Typography>
                     <Button variant={'contained'}
-                            onClick={() => window.open('tel:+14062532867')}
+                            onClick={() => window.open('https://www.campspot.com/book/martin-city-park-cfmt')}
                             sx={{width: '20rem', height: '5rem', backgroundColor: secondaryColor}}>
                         <Typography variant={'h5'} sx={{
                             color: 'white',
