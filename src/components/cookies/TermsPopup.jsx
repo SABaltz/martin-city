@@ -36,7 +36,11 @@ const TermsPopup = ({open, handleClose}) => {
                 </Typography>
                 <Grid container sx={{...centerVertHoriz}}>
                     <Grid item xs={6}>
-                        <Button onClick={() => console.log("hello")} variant="outlined" sx={{mt: 2}}>
+                        <Button
+                            onClick={() => window.location.href = 'https://www.google.com'}
+                            variant="outlined"
+                            sx={{mt: 2}}
+                        >
                             Decline
                         </Button>
                     </Grid>
