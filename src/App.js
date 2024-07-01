@@ -38,13 +38,14 @@ function App() {
                             {/*<Amenities/>*/}
                             <Rules/>
                             <Attractions/>
+                            <TermsPopup open={openTerms} handleClose={handleCloseTerms}/>
+
                         </>
                     }/>
                     <Route path="*" element={<Navigate to="/"/>}/>
                 </Routes>
                 <Footer/>
             </BrowserRouter>
-            <TermsPopup open={openTerms} handleClose={handleCloseTerms}/>
         </>
     );
 }
