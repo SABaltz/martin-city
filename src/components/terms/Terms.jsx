@@ -10,7 +10,18 @@ import {secondaryColor} from "../../global-parameters/Parameters";
 function Terms() {
     return (
         <Container>
-            <Box my={4}>
+            <Button variant="contained" href="/"
+                    sx={{
+                        color: 'white',
+                        backgroundColor: secondaryColor, ...centerVertHoriz,
+                        width: '20rem',
+                        marginLeft: '10rem',
+                        marginTop: '1rem',
+                        marginBottom: '1rem'
+                    }}>
+                Home
+            </Button>
+            <Box my={4} sx={{margin: '0 10rem'}}>
                 <Typography variant="h4" gutterBottom>
                     Terms of Service
                 </Typography>
@@ -31,7 +42,6 @@ function Terms() {
                     observe these guidelines can be asked to leave the park without any form of refund.
                 </Typography>
 
-                <Divider/>
 
                 <Typography variant="body2" paragraph>
                     Quiet Time: 10pm to 7am
@@ -195,7 +205,12 @@ function Terms() {
             </Box>
             <Box sx={{...centerVertHoriz, justifyContent: 'center'}}>
                 <Button variant="contained" href="/"
-                        sx={{color: 'white', backgroundColor: secondaryColor, ...centerVertHoriz, width: '20rem', marginBottom: '2rem'}}>
+                        sx={{
+                            color: 'white',
+                            backgroundColor: secondaryColor, ...centerVertHoriz,
+                            width: '20rem',
+                            marginBottom: '2rem'
+                        }}>
                     Home
                 </Button>
             </Box>
