@@ -1,41 +1,49 @@
 import React from 'react';
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Typography";
-import {Button, Divider} from "@mui/material";
+import {Button, Divider, Grid} from "@mui/material";
 import Box from "@mui/material/Box";
 import {centerVertHoriz} from "../../global-parameters/Styles";
 import {secondaryColor} from "../../global-parameters/Parameters";
-
+import {isMobile} from 'react-device-detect';
 
 function Terms() {
     return (
         <Container>
-            <Button variant="contained" href="/"
-                    sx={{
-                        color: 'white',
-                        backgroundColor: secondaryColor, ...centerVertHoriz,
-                        width: '20rem',
-                        marginLeft: '10rem',
-                        marginTop: '1rem',
-                        marginBottom: '1rem'
-                    }}>
-                Home
-            </Button>
-            <Box my={4} sx={{margin: '0 10rem'}}>
-                <Typography variant="h4" gutterBottom>
-                    Terms of Service
-                </Typography>
-                <Typography variant="h5" gutterBottom>
-                    Martin City Park LLC
-                </Typography>
+            <Grid container sx={{marginLeft: isMobile ? 0 : '10rem'}}>
+                <Grid item xs={12} md={6} order={{ xs: 1, md: 2 }}>
+                    <Button variant="contained" href="/"
+                            sx={{
+                                color: 'white',
+                                backgroundColor: secondaryColor, ...centerVertHoriz,
+                                width: '20rem',
+                                marginLeft: isMobile ? 0 : '10rem',
+                                marginTop: '1rem',
+                                marginBottom: '1rem'
+                            }}>
+                        Home
+                    </Button>
+                </Grid>
+                <Grid item xs={12} md={6} order={{ xs: 2, md: 1 }}>
+                    <Typography variant="h4" gutterBottom>
+                        Terms of Service
+                    </Typography>
+                    <Typography variant="h5" gutterBottom>
+                        Martin City Park LLC
+                    </Typography>
 
-                <Typography variant="h6" gutterBottom>
-                    Rules and Regulations
-                </Typography>
+                    <Typography variant="h6" gutterBottom>
+                        Rules and Regulations
+                    </Typography>
 
-                <Typography variant="body1" paragraph>
-                    General Campground Guidelines
-                </Typography>
+                    <Typography variant="body1" paragraph>
+                        General Campground Guidelines
+                    </Typography>
+                </Grid>
+
+            </Grid>
+
+            <Box my={4} sx={{margin: isMobile ? ' 0,0' : '0 10rem'}}>
                 <Typography variant="body2" paragraph>
                     We’ve established the following general park guidelines to help ensure your safety and your
                     enjoyment, while in Martin City Park and the same to our other guests. Those who choose not to
