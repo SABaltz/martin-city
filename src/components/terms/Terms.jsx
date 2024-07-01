@@ -10,7 +10,7 @@ import {isMobile} from 'react-device-detect';
 function Terms() {
     return (
         <Container>
-            <Grid container sx={{marginLeft: isMobile ? 0 : '10rem'}}>
+            <Grid container sx={{marginLeft: isMobile ? 0 : '10rem', marginTop: '3rem'}}>
                 <Grid item xs={12} md={6} order={{ xs: 1, md: 2 }}>
                     <Button variant="contained" href="/"
                             sx={{
