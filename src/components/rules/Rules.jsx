@@ -17,7 +17,7 @@ function Rules() {
         "Please NO FIRES at any time.",
         "Please be respectful of your neighbors.",
         "Quiet hours begin at 10:00pm.",
-        "Max Vehicle length is 20\".",
+        "Max Vehicle length is 20ft.",
         "No parking on or down Martin Drive, this is a private drive, please park additional vehicles on the paved shoulder off the main road.",
         "Wednesday is the portapotty servicing day. Please be aware if you stay past the check-out time they may ask you to move your vehicle."
     ];
