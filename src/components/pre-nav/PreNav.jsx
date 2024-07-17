@@ -20,7 +20,7 @@ function PreNav() {
     const isMobile = useMediaQuery('(min-width:600px)');
 
     const handleDirectionsClick = () => {
-        window.open("https://www.google.com/maps/place/9234+Hwy+2+E,+Columbia+Falls,+MT+59912/@48.3910565,-114.0436689,17z/data=!3m1!4b1!4m6!3m5!1s0x53663ee5fcea226b:0xa23a1e7f79093ae7!8m2!3d48.391053!4d-114.041094!16s%2Fg%2F11c2h319n3?entry=ttu");
+        window.open("https://www.google.com/maps/place/Martin+City+Park/@48.3911745,-114.0434679,17z/data=!3m1!4b1!4m6!3m5!1s0x53663fc0f3deca83:0x4151277c7fcd9507!8m2!3d48.391171!4d-114.040893!16s%2Fg%2F11y3kn8nn5?entry=ttu");
     };
 
     return (
