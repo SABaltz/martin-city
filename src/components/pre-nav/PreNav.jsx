@@ -24,29 +24,30 @@ function PreNav() {
 
     return (
         <Box sx={{flexGrow: 1}}>
-            <AppBar position="static" sx={{backgroundColor: secondaryColor, height: '3rem'}}>
+            <AppBar position="static" sx={{backgroundColor: secondaryColor, height: '5rem', ...centerVertHoriz}}>
                 <Grid container alignItems="center" justifyContent="center">
                     {/*<Grid item xs={12} sm={4} md={2}>*/}
-                        {/*<Typography onClick={handlePhoneClick} sx={{...centerVertHoriz, cursor: 'pointer'}}>*/}
-                        {/*    <LocalPhoneIcon sx={{paddingRight: '.5rem'}}/>*/}
-                        {/*    (406) 253-2867*/}
-                        {/*</Typography>*/}
+                    {/*<Typography onClick={handlePhoneClick} sx={{...centerVertHoriz, cursor: 'pointer'}}>*/}
+                    {/*    <LocalPhoneIcon sx={{paddingRight: '.5rem'}}/>*/}
+                    {/*    (406) 253-2867*/}
+                    {/*</Typography>*/}
                     {/*</Grid>*/}
-                    <Grid item xs={12} sm={4} md={2}>
+                    <Grid item xs={12} sm={4} md={4}>
                         <Typography onClick={handleEmailClick} sx={{...centerVertHoriz, cursor: 'pointer'}}>
                             <Mail sx={{paddingRight: '.5rem'}}/>
                             glaciernationalparkcamping@gmail.com
                         </Typography>
                     </Grid>
-                    <Grid item xs={12} sm={4} md={2}>
+                    <Grid item xs={12} sm={4} md={4}>
                         <Typography onClick={handleDirectionsClick} sx={{...centerVertHoriz, cursor: 'pointer'}}>
                             <DirectionsIcon sx={{paddingRight: '.5rem'}}/>
                             Directions
                         </Typography>
                     </Grid>
-                    <Grid item xs={12} sm={4} md={2}>
+                    <Grid item xs={12} sm={4} md={4}>
                         <Typography>
-                            <Link href="/terms" sx={{color: 'white'}}>
+                            <Link href="/terms"
+                                  sx={{...centerVertHoriz, cursor: 'pointer', color: 'white'}}>
                                 Terms of Service
                             </Link>
                         </Typography>
