@@ -15,7 +15,7 @@ function Attractions() {
             alignItems: 'center',
             paddingTop: '3rem',
             paddingBottom: '3rem',
-            backgroundColor: '#c1c1c1'
+            backgroundColor: '#ffffff'
         }}>
             <Stack>
                 <Typography variant="h3" gutterBottom
