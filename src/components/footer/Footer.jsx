@@ -16,6 +16,12 @@ function Footer() {
                 253-2867</Typography>
             <Typography sx={{fontSize: '1.5rem'}}> <Link sx={{color: 'black'}} href={"/terms"}>Privacy Policy / Terms of
                 Service</Link> </Typography>
+            <Typography>
+                <Typography
+                    sx={{...centerVertHoriz, cursor: 'pointer', fontSize: '1.5rem'}}>
+                    glaciernationalparkcamping@gmail.com
+                </Typography>
+            </Typography>
         </Stack>
     </Box>)
 }

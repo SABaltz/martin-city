@@ -2,7 +2,7 @@ import Box from "@mui/material/Box";
 import AppBar from "@mui/material/AppBar";
 import {Grid, Link, Typography} from "@mui/material";
 // import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import {Directions as DirectionsIcon, Gavel, Mail} from "@mui/icons-material";
+import {Directions as DirectionsIcon, Gavel} from "@mui/icons-material";
 import {centerVertHoriz} from "../../global-parameters/Styles";
 import {secondaryColor} from "../../global-parameters/Parameters";
 
@@ -10,9 +10,9 @@ function PreNav() {
     const recipientEmail = 'glaciernationalparkcamping@gmail.com';
     const mailToLink = `mailto:${recipientEmail}`;
 
-    const handleEmailClick = () => {
-        window.location.href = mailToLink;
-    };
+    // const handleEmailClick = () => {
+    //     window.location.href = mailToLink;
+    // };
 
     // const handlePhoneClick = () => {
     //     window.open('tel:+14062532867');
@@ -32,15 +32,18 @@ function PreNav() {
                     {/*    (406) 253-2867*/}
                     {/*</Typography>*/}
                     {/*</Grid>*/}
-                    <Grid item xs={12} sm={6} md={4} lg={4} >
-                        <Typography variant={'h4'}>Martin City Campground</Typography>
+                    <Grid item xs={12} sm={4} md={4} lg={8}>
+                        <Typography variant={'h4'} sx={{marginLeft: '3rem'}}>Martin City Campground</Typography>
                     </Grid>
-                    <Grid item xs={12} sm={4} md={4} lg={2}>
-                        <Typography onClick={handleEmailClick} sx={{...centerVertHoriz, cursor: 'pointer'}}>
-                            <Mail sx={{paddingRight: '.5rem'}}/>
-                            glaciernationalparkcamping@gmail.com
-                        </Typography>
-                    </Grid>
+                    {/*<Grid item xs={12} sm={4} md={4} lg={2}>*/}
+                    {/*    <Typography onClick={() => {*/}
+                    {/*        window.location.href = mailToLink;*/}
+                    {/*    }}*/}
+                    {/*                sx={{...centerVertHoriz, cursor: 'pointer'}}>*/}
+                    {/*        <Mail sx={{paddingRight: '.5rem'}}/>*/}
+                    {/*        glaciernationalparkcamping@gmail.com*/}
+                    {/*    </Typography>*/}
+                    {/*</Grid>*/}
                     <Grid item xs={12} sm={4} md={4} lg={2}>
                         <Typography onClick={handleDirectionsClick} sx={{...centerVertHoriz, cursor: 'pointer'}}>
                             <DirectionsIcon sx={{paddingRight: '.5rem'}}/>
@@ -52,7 +55,7 @@ function PreNav() {
                             <Link href="/terms"
                                   sx={{...centerVertHoriz, cursor: 'pointer', color: 'white'}}>
                                 <Gavel/>
-                                Terms of Service
+                                Terms
                             </Link>
                         </Typography>
                     </Grid>
