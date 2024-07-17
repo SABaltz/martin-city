@@ -1,7 +1,7 @@
 import Box from "@mui/material/Box";
 import AppBar from "@mui/material/AppBar";
 import {Grid, Link, Typography} from "@mui/material";
-import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+// import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import {Directions as DirectionsIcon, Mail} from "@mui/icons-material";
 import {centerVertHoriz} from "../../global-parameters/Styles";
 import {secondaryColor} from "../../global-parameters/Parameters";
