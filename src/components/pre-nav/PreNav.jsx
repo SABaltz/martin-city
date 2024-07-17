@@ -7,8 +7,8 @@ import {centerVertHoriz} from "../../global-parameters/Styles";
 import {secondaryColor} from "../../global-parameters/Parameters";
 
 function PreNav() {
-    const recipientEmail = 'glaciernationalparkcamping@gmail.com';
-    const mailToLink = `mailto:${recipientEmail}`;
+    // const recipientEmail = 'glaciernationalparkcamping@gmail.com';
+    // const mailToLink = `mailto:${recipientEmail}`;
 
     // const handleEmailClick = () => {
     //     window.location.href = mailToLink;
