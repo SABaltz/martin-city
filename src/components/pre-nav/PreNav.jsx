@@ -2,7 +2,7 @@ import Box from "@mui/material/Box";
 import AppBar from "@mui/material/AppBar";
 import {Grid, Link, Typography} from "@mui/material";
 // import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import {Directions as DirectionsIcon, Mail} from "@mui/icons-material";
+import {Directions as DirectionsIcon, Gavel, Mail} from "@mui/icons-material";
 import {centerVertHoriz} from "../../global-parameters/Styles";
 import {secondaryColor} from "../../global-parameters/Parameters";
 
@@ -24,7 +24,7 @@ function PreNav() {
 
     return (
         <Box sx={{flexGrow: 1}}>
-            <AppBar position="static" sx={{backgroundColor: secondaryColor, height: '5rem', ...centerVertHoriz}}>
+            <AppBar position="static" sx={{backgroundColor: secondaryColor, height: '7rem', ...centerVertHoriz}}>
                 <Grid container alignItems="center" justifyContent="center">
                     {/*<Grid item xs={12} sm={4} md={2}>*/}
                     {/*<Typography onClick={handlePhoneClick} sx={{...centerVertHoriz, cursor: 'pointer'}}>*/}
@@ -32,22 +32,26 @@ function PreNav() {
                     {/*    (406) 253-2867*/}
                     {/*</Typography>*/}
                     {/*</Grid>*/}
-                    <Grid item xs={12} sm={4} md={4}>
+                    <Grid item xs={12} sm={6} md={4} lg={4} >
+                        <Typography variant={'h4'}>Martin City Campground</Typography>
+                    </Grid>
+                    <Grid item xs={12} sm={4} md={4} lg={2}>
                         <Typography onClick={handleEmailClick} sx={{...centerVertHoriz, cursor: 'pointer'}}>
                             <Mail sx={{paddingRight: '.5rem'}}/>
                             glaciernationalparkcamping@gmail.com
                         </Typography>
                     </Grid>
-                    <Grid item xs={12} sm={4} md={4}>
+                    <Grid item xs={12} sm={4} md={4} lg={2}>
                         <Typography onClick={handleDirectionsClick} sx={{...centerVertHoriz, cursor: 'pointer'}}>
                             <DirectionsIcon sx={{paddingRight: '.5rem'}}/>
                             Directions
                         </Typography>
                     </Grid>
-                    <Grid item xs={12} sm={4} md={4}>
+                    <Grid item xs={12} sm={4} md={4} lg={2}>
                         <Typography>
                             <Link href="/terms"
                                   sx={{...centerVertHoriz, cursor: 'pointer', color: 'white'}}>
+                                <Gavel/>
                                 Terms of Service
                             </Link>
                         </Typography>
