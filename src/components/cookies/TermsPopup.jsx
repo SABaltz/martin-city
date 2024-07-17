@@ -12,6 +12,7 @@ const TermsPopup = ({open, handleClose}) => {
         bgcolor: 'background.paper',
         boxShadow: 24,
         p: 4,
+
     };
 
     return (
@@ -22,10 +23,17 @@ const TermsPopup = ({open, handleClose}) => {
             aria-describedby="terms-description"
         >
             <Box sx={style}>
-                <Typography id="terms-title" variant="h6" component="h2">
+                <Typography id="terms-title" variant="h6" component="h2" sx={{
+                    paddingLeft: 8,
+                    paddingRight: 8,
+                }}>
                     Terms of Service
                 </Typography>
-                <Typography id="terms-description" sx={{mt: 2}}>
+                <Typography id="terms-description" sx={{
+                    paddingLeft: 8,
+                    paddingRight: 8,
+                    mt: 2,
+                }}>
                     Please read and accept our Terms of Service to continue using the website.
                     <br/><br/>
                     <strong>Terms and Conditions:</strong>
@@ -34,7 +42,10 @@ const TermsPopup = ({open, handleClose}) => {
                     <Link href={'/terms'}> terms...</Link>
 
                 </Typography>
-                <Grid container sx={{...centerVertHoriz}}>
+                <Grid container sx={{
+                    ...centerVertHoriz, paddingLeft: 8,
+                    paddingRight: 8
+                }}>
                     <Grid item xs={6}>
                         <Button
                             onClick={() => window.location.href = 'https://www.google.com'}
