@@ -33,7 +33,14 @@ function PreNav() {
                     {/*</Typography>*/}
                     {/*</Grid>*/}
                     <Grid item xs={12} sm={4} md={4} lg={8}>
-                        <Typography variant={'h4'} sx={{marginLeft: '3rem'}}>Martin City Campground</Typography>
+                        <Link href={"/"} sx={{textDecoration: "none"}}>
+                            <Typography variant={'h4'}
+                                        sx={{
+                                            marginLeft: '3rem',
+                                            color: 'white',
+                                        }}>Martin
+                                City Campground</Typography>
+                        </Link>
                     </Grid>
                     {/*<Grid item xs={12} sm={4} md={4} lg={2}>*/}
                     {/*    <Typography onClick={() => {*/}
