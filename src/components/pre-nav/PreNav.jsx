@@ -55,14 +55,14 @@ function PreNav() {
                     {/*        glaciernationalparkcamping@gmail.com*/}
                     {/*    </Typography>*/}
                     {/*</Grid>*/}
-                    <Grid item xs={12} sm={4} md={4} lg={2}>
+                    <Grid item xs={12} sm={4} md={4} lg={2} sx={{marginTop: isMobile ? '' : '1rem',}}>
                         <Typography onClick={handleDirectionsClick} sx={{...centerVertHoriz, cursor: 'pointer'}}>
                             <DirectionsIcon sx={{paddingRight: '.5rem'}}/>
                             Directions
                         </Typography>
                     </Grid>
-                    <Grid item xs={12} sm={4} md={4} lg={2}>
-                        <Typography>
+                    <Grid item xs={12} sm={4} md={4} lg={2} sx={{marginTop: isMobile ? '' : '1rem',}}>
+                        <Typography >
                             <Link href="/terms"
                                   sx={{...centerVertHoriz, cursor: 'pointer', color: 'white'}}>
                                 <Gavel/>
