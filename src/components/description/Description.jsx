@@ -1,13 +1,12 @@
 import {centerVertHoriz} from "../../global-parameters/Styles";
 import {Typography} from "@mui/material";
 import Box from "@mui/material/Box";
-import {secondaryColor} from "../../global-parameters/Parameters";
 
 function Description() {
     return (<Box sx={{
         width: '100vw',
         ...centerVertHoriz,
-        backgroundColor: secondaryColor
+        backgroundColor: '#EFDECD '
     }}>
         <Typography sx={{margin: '4rem 4rem', fontSize: '1.5rem'}}>Martin City Park is a convenient, budget friendly
             camper-van and tent site campground
