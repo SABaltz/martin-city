@@ -10,6 +10,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import CircleIcon from '@mui/icons-material/Circle';
 import {secondaryColor} from "../../global-parameters/Parameters";
 import {centerVertHoriz} from "../../global-parameters/Styles";
+import {isMobile} from "react-device-detect";
 
 function Rules() {
     const rules = [
@@ -28,7 +29,7 @@ function Rules() {
                 <Grid container spacing={2} sx={{padding: 2}}>
                     <Grid item xs={12}>
                         <Typography variant="h3" gutterBottom
-                                    sx={{...centerVertHoriz, marginBottom: '2rem'}}>
+                                    sx={{marginLeft: isMobile ? "": '1rem', marginBottom: '2rem'}}>
                             Camp Rules
                         </Typography>
                         <List>
