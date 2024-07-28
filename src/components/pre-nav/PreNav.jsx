@@ -1,7 +1,7 @@
 import Box from "@mui/material/Box";
 import AppBar from "@mui/material/AppBar";
 import {Grid, Link, Typography, useMediaQuery} from "@mui/material";
-// import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import {Directions as DirectionsIcon, Gavel} from "@mui/icons-material";
 import {centerVertHoriz} from "../../global-parameters/Styles";
 import {secondaryColor} from "../../global-parameters/Parameters";
@@ -14,9 +14,9 @@ function PreNav() {
     //     window.location.href = mailToLink;
     // };
 
-    // const handlePhoneClick = () => {
-    //     window.open('tel:+14062532867');
-    // };
+    const handlePhoneClick = () => {
+        window.open('tel:+14062532867');
+    };
     const isMobile = useMediaQuery('(min-width:600px)');
 
     const handleDirectionsClick = () => {
@@ -28,13 +28,8 @@ function PreNav() {
             <AppBar position="static"
                     sx={{backgroundColor: secondaryColor, height: isMobile ? '7rem' : '12rem', ...centerVertHoriz}}>
                 <Grid container alignItems="center" justifyContent="center">
-                    {/*<Grid item xs={12} sm={4} md={2}>*/}
-                    {/*<Typography onClick={handlePhoneClick} sx={{...centerVertHoriz, cursor: 'pointer'}}>*/}
-                    {/*    <LocalPhoneIcon sx={{paddingRight: '.5rem'}}/>*/}
-                    {/*    (406) 253-2867*/}
-                    {/*</Typography>*/}
-                    {/*</Grid>*/}
-                    <Grid item xs={12} sm={4} md={4} lg={8}>
+
+                    <Grid item xs={12} sm={4} md={4} lg={5}>
                         <Link href={"/"} sx={{textDecoration: "none"}}>
                             <Typography variant={'h4'}
                                         sx={{
@@ -45,6 +40,13 @@ function PreNav() {
                                         }}>
                                 Martin City Campground</Typography>
                         </Link>
+                    </Grid>
+
+                    <Grid item xs={12} sm={4} md={2}>
+                        <Typography onClick={handlePhoneClick} sx={{...centerVertHoriz, cursor: 'pointer'}}>
+                            <LocalPhoneIcon sx={{paddingRight: '.5rem'}}/>
+                            (406) 253-2867
+                        </Typography>
                     </Grid>
                     {/*<Grid item xs={12} sm={4} md={4} lg={2}>*/}
                     {/*    <Typography onClick={() => {*/}
